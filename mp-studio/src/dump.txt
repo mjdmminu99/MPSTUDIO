@@ -1,0 +1,14 @@
+<ul className="nav-btns">
+          <li className="nav-btn">
+            <a href="">Home</a>
+          </li>
+          <li className="nav-btn">
+            <a href="">Learn</a>
+          </li>
+          <li className="nav-btn">
+            <a href="">Schedule</a>
+          </li>
+          <li className="nav-btn">
+            <a href="">Choreographers</a>
+          </li>
+        </ul>

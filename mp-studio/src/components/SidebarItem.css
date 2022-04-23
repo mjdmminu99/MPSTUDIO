@@ -1,0 +1,19 @@
+.sidebar-item {
+  margin-bottom: 20px;
+}
+
+.sidebar-item > p {
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar-item > p:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sidebar-item.selected > p{
+  font-weight: 600;
+}

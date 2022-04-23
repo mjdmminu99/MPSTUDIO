@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  height: 50px;
+  color: white;
+  background-color: #101010;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-content {
+  display: flex;
+  margin-right: 10px;
+}
+
+.header-empty {
+  flex: 1;
+}
+
+.btn-signup,
+.btn-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 100px;
+}
+
+.btn-signup {
+  background-color: #101010;
+}
+
+.btn-signup:hover {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-login {
+  width: 90px;
+  font-weight: 500;
+  background-color: white;
+  color: #101010;
+}
+
+.btn-login:hover {
+  font-weight: 700;
+  cursor: pointer;
+}

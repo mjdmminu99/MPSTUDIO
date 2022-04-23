@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightblue;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-left,
+.header-input,
+.header-right {
+  display: flex;
+  align-items: center;
+  margin: 6px 20px;
+}
+
+.header-input {
+  height: 28px;
+  width: 40%;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.header-input > input {
+  flex: 1;
+  border: none;
+}
+
+.search-btn {
+  width: 40px !important;
+  color: gray;
+}
+
+.header-right > .header-icon {
+  margin-right: 8px;
+}
+
+.logo-class {
+  display: flex;
+  align-items: center;
+}
+
+.logo-class > img {
+  height: 28px;
+  object-fit: contain;
+}
+
+.logo-class > h3 {
+  margin-left: 10px;
+}
