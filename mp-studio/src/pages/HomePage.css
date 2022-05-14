@@ -4,3 +4,7 @@
   height: 100vh;
   background-color: #1d1d1d;
 }
+
+.header__logo {
+  height: 25px;
+}
