@@ -9,7 +9,7 @@ function SideBar() {
 
     <img 
     className="logo"
-    src="/images/mps.png" alt=""/>
+    src="/images/er.jpg" alt=""/>
 
       <SidebarItem selected title="Home" />
       <SidebarItem title="Learn" />
