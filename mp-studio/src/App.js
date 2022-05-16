@@ -2,8 +2,11 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
+import Signup from "./pages/Signup";
 import ErrorPage from "./pages/ErrorPage";
 import Test from "./pages/Test";
+import AboutUs from "./pages/AboutUs";
+
 
 function App() {
   return (
@@ -11,6 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/test" element={<Test />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>

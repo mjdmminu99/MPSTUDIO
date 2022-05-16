@@ -1,5 +1,7 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
+
 
 function Header() {
   return (
@@ -7,7 +9,7 @@ function Header() {
     <div className="header">
       <div className="header-empty"></div>
       <div className="header-content">
-        <p className="btn-signup">Sign Up</p>
+        <Link to={'/signup'} className="btn-signup"><p className="btn-signup">Sign Up</p></Link>
         <p className="btn-login">Log In</p>
       </div>
     </div>

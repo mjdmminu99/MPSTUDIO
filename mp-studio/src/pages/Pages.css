@@ -1,0 +1,42 @@
+.app {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  background-color: #2c2c2c;
+}
+
+h1 h2 h3 h4 {
+  color: aliceblue;
+}
+div {
+  color: aliceblue;
+}
+label {
+  color: aliceblue;
+}
+.header__logo {
+  height: 25px;
+}
+
+
+/*Signup related css*/
+.login-container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ui.card.login-card {
+  width: 450px;
+}
+
+.login.button {
+  float: right;
+}
+
+.ui.form input[type=text],
+.ui.form input[type=password],
+.ui.form select {
+  margin-top: 10px;
+}
