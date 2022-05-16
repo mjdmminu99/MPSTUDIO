@@ -6,6 +6,7 @@ import Signup from "./pages/Signup";
 import ErrorPage from "./pages/ErrorPage";
 import Test from "./pages/Test";
 import AboutUs from "./pages/AboutUs";
+import CoachPage from "./pages/CoachPage";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/test" element={<Test />} />
+        <Route path="/coach" element={<CoachPage />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<ErrorPage />} />
