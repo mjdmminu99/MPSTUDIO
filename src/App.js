@@ -7,6 +7,8 @@ import ErrorPage from "./pages/ErrorPage";
 import Test from "./pages/Test";
 import AboutUs from "./pages/AboutUs";
 import CoachPage from "./pages/CoachPage";
+import ChoreographersPage from "./pages/ChoreographersPage";
+import UploadVideo from "./components/UploadVideo.1";
 
 
 function App() {
@@ -19,8 +21,16 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<ErrorPage />} />
+        <Route path="/uploadvideo" element={<UploadVideo />} />
+        <Route path="/choreographers" element={<ChoreographersPage />} />
+        
       </Routes>
+      
     </Router>
+       
+    
+   
+    
     //   <div className="app">
     //     <HomePage />
     //   </div>
