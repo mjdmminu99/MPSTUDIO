@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import { Link } from "react-router-dom";
-import { signup } from '../firebase/auth'
+import { signup } from '../firebase/auth';
 
 const useStyles = makeStyles(theme => ({
   root: {
