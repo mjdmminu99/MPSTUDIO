@@ -14,8 +14,8 @@
       margin-top: 30px;
       font-size: 25px;
       font-family: Montserrat,sans-serif;;
-      font-weight: 700;
-      color: black;
+      font-weight: 800;
+      color: #28e298;
     }
   
     /*.content {
@@ -32,7 +32,7 @@
          display: block;
          margin-left: auto;
          margin-right: auto;
-         width: 45%;
+         width: 40%;
          margin-top: 10px;
           
           /*
@@ -64,7 +64,7 @@
 
           label { 
               color: rgb(0, 0, 0);
-              font-size: 16px;
+              font-size: 15px;
               font-family: monospace,sans-serif;
               font-weight: 600;
             }
@@ -123,7 +123,24 @@
 
 }
 
+.ui-compact-menu {
+  color: black;
+  font-family: monospace,sans-serif;
+  font-weight: 600;
+}
 
+a {
+  color: black;
+  font-size: 15px;
+  font-family: monospace,sans-serif;
+  font-weight: 600;
 
+}
+a:hover {
+   color: #28e298
+}
   
   
+.signup-link {
+    margin-bottom: 20px;
+}

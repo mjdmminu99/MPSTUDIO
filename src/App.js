@@ -10,6 +10,7 @@ import AboutUs from "./pages/AboutUs";
 import CoachPage from "./pages/CoachPage";
 import ChoreographersPage from "./pages/ChoreographersPage";
 import UploadVideo from "./components/UploadVideo.1";
+import SchedulePage from "./pages/SchedulePage";
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="*" element={<ErrorPage />} />
         <Route path="/uploadvideo" element={<UploadVideo />} />
         <Route path="/choreographers" element={<ChoreographersPage />} />
+        <Route path="/schedule" element={<SchedulePage />} />
         
       </Routes>
       

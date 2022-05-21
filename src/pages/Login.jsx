@@ -21,6 +21,17 @@ export class Login extends React.Component {
               <input type="text" name="email" placeholder="email" />
             </div>
             <br/>
+            <div class="ui-compact-menu">
+             <div class="ui dropdown item">
+             <label htmlFor="career">CAREER:</label> 
+                 <select>
+                  <option value="student">Student</option>
+                  <option value="choreographer">Choreographer</option>
+                  <option selected value="admin">Admin</option>
+                </select>
+              </div>
+            </div>
+              <br/>
             <div className="form-group">
               <label htmlFor="password">PASSWORD:</label>
               <input type="password" name="password" placeholder="password" />
@@ -31,6 +42,9 @@ export class Login extends React.Component {
           <button type="button" className="btn">
             LogIn
           </button>
+        </div>
+        <div className="signup-link">
+        <a href="http://localhost:3000/signup">SignUp</a>
         </div>
       </div>
     );
