@@ -127,12 +127,14 @@ export async function joinRoomById(roomId) {
 
     //Add remote (coach's) media streams
     let remoteStream = new MediaStream();
-    document.querySelector('#remoteVideo').srcObject = remoteStream;
+
     peerConnection.addEventListener('track', event => {
       console.log('Got remote track:', event.streams[0]);
       event.streams[0].getTracks().forEach(track => {
         console.log('Add a track to the remoteStream:', track);
         remoteStream.addTrack(track);
+        document.querySelector('#remoteVideo').srcObject = remoteStream;
+        console.log('Remote Stream:', document.querySelector('#remoteVideo').srcObject);
       });
     });
 
