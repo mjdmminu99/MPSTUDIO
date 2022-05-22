@@ -9,8 +9,7 @@ function HomePage() {
     <div className="app">
       <SideBar />
       <AppPage />
-      
-      
+
     </div>
   );
 }

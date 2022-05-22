@@ -11,6 +11,7 @@ import CoachPage from "./pages/CoachPage";
 import ChoreographersPage from "./pages/ChoreographersPage";
 import UploadVideo from "./components/UploadVideo.1";
 import SchedulePage from "./pages/SchedulePage";
+import LearnPage from "./pages/Learn";
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/test" element={<Test />} />
         <Route path="/coach" element={<CoachPage />} />
+        <Route path="/learn/*" element={<LearnPage />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />

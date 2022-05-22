@@ -102,10 +102,6 @@ export async function createRoom() {
 }
 
 
-
-
-
-
 function joinRoom() {
   document.querySelector('#confirmJoinBtn').addEventListener('click', async () => {
     roomId = document.querySelector('#room-id').value;
@@ -187,6 +183,20 @@ export async function hangUp(e) {
   }
   document.location.reload(true);
 }
+
+export async function listRooms() {
+  const db = firebase.firestore();
+  const rooms = [];
+  const snapshot = await db.collection('rooms').get()
+  snapshot.forEach((doc) => {
+    const id = doc.id;
+    const data = doc.data();
+    data.id = id;
+    rooms.push(data);
+  })
+  return rooms;
+}
+
 
 function registerPeerConnectionListeners() {
   peerConnection.addEventListener('icegatheringstatechange', () => {
