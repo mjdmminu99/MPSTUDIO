@@ -1,0 +1,23 @@
+.classes.root {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:50px 0px; padding:0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ui-dropdown-item{
+    color: black;
+    font-family: monospace,sans-serif;
+    font-weight: 700;
+    
+  }
+
+  .signup.button {
+    color: #28e298;
+  
+  } 

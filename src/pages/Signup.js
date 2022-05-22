@@ -4,6 +4,7 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import { Link } from "react-router-dom";
 import { signup } from '../firebase/auth';
+import "./SignUp.css";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -52,7 +53,9 @@ function Signup({ handleClose }) {
   };
 
   return (
+    
     <form className={classes.root} onSubmit={handleSubmit}>
+      <div className="Heading">SIGN UP</div>
       <TextField
         label="First Name"
         variant="filled"
@@ -67,6 +70,17 @@ function Signup({ handleClose }) {
         value={lastName}
         onChange={e => setLastName(e.target.value)}
       />
+      
+      <div class="ui-drop-menu">
+             <div class="ui-dropdown-item">
+                 <select>
+                  <option value="student">Student</option>
+                  <option value="choreographer">Choreographer</option>
+                  <option value="admin">Admin</option>
+                </select>
+            </div>
+          </div>
+      
       <TextField
         label="Email"
         variant="filled"
