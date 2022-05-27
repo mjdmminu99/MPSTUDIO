@@ -15,6 +15,7 @@ import LearnPage from "./pages/Learn";
 
 
 
+
 function App() {
   return (
     <Router>
@@ -30,6 +31,8 @@ function App() {
         <Route path="/uploadvideo" element={<UploadVideo />} />
         <Route path="/choreographers" element={<ChoreographersPage />} />
         <Route path="/schedule" element={<SchedulePage />} />
+       
+
         
       </Routes>
       

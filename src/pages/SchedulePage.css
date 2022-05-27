@@ -1,0 +1,29 @@
+
+.Class{
+  text-align: center;
+  margin-top: 20px;
+  font-family: Montserrat,sans-serif;
+  position: flex;
+}
+
+.Head {
+
+      margin-top: 30px;
+      font-size: 40px;
+      font-family: Montserrat,sans-serif;
+      font-weight: 800;
+      color: #28e298;
+}
+
+.add {
+    
+    padding: 5px 20px;
+    border: 0;
+    background-color: #28e298;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+    font-family: Montserrat,sans-serif;
+}
