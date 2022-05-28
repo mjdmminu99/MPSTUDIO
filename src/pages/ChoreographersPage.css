@@ -1,0 +1,93 @@
+.container_ {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+h1.caption_cho {
+    font-size: 60px;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #28e298;
+}
+
+p.caption_p {
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+    font-family:Montserrat,sans-serif;
+    font-style: italic;
+}
+
+.profile_box {
+    border-radius: 0;
+    width: 100%;
+    padding: 55px;
+    transition: .4s ease;
+}
+
+.momo_img {
+    margin-left: 300px;
+    margin-top: 80px;
+    border-radius: 15px;
+    width: 20%;
+    position: fixed ;
+}
+
+.momo_text{
+    
+    margin-left: 700px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Montserrat,sans-serif;
+    padding-left: 0px;
+  }
+
+  .momo_quote{
+    font-style: oblique;
+    font-weight: 500;
+    margin-top: 20px;
+    color: rgb(225, 67, 67);
+
+  }
+
+ 
+  .caption_momo1{
+    
+    color: rgb(225, 67, 67);
+    margin-left: 700px;
+    margin-top: 90px;
+    font-size: 40px;
+    font-family: Montserrat,sans-serif;
+    padding-left: 0px;
+    font-weight: 700;
+    text-align: start;
+    
+  }
+
+  .know_m {
+    margin-left: 1260px;
+    margin-top: 10px;
+    color:black;
+    display: block;
+    
+   
+  }
+.more-m {
+  
+  font-size: 25px;
+  padding: 5px 20px;
+  border: 0;
+  background-color: black ;
+  color:  white;
+  font-weight: 500;
+  border-radius: 3px;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
+  font-style: initial;
+
+}
