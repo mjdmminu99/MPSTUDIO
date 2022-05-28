@@ -12,6 +12,7 @@ import ChoreographersPage from "./pages/ChoreographersPage";
 import UploadVideo from "./components/UploadVideo.1";
 import SchedulePage from "./pages/SchedulePage";
 import LearnPage from "./pages/Learn";
+import MPPass from "./pages/MPPassPage";
 
 
 
@@ -31,19 +32,12 @@ function App() {
         <Route path="/uploadvideo" element={<UploadVideo />} />
         <Route path="/choreographers" element={<ChoreographersPage />} />
         <Route path="/schedule" element={<SchedulePage />} />
-       
-
+        <Route path="/mp_pass" element={<MPPass />} />
         
       </Routes>
       
     </Router>
        
-    
-   
-    
-    //   <div className="app">
-    //     <HomePage />
-    //   </div>
   );
 }
 

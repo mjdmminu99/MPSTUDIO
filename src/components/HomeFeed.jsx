@@ -15,7 +15,7 @@ function HomeFeed() {
 
   return (
     <div className="home-feed">
-      <p className="home-feed-title">Latest Videos</p>
+      <p className="home-feed-title">🔴 Live Now</p>
       <div className="latest">
 
         <VideoCard
