@@ -19,7 +19,7 @@
 
 .col2{
     margin-bottom: 700px;
-    margin-left: 370px;
+    margin-left: 270px;
     font-family: Montserrat,sans-serif;
     position: fixed;
     
@@ -27,15 +27,17 @@
 }
 
 .col3{
-    /*margin-bottom: 700px;*/
-    color: white;
-    margin-left: 760px;
+    
+    margin-left: 660px;
     font-family: Montserrat,sans-serif;
     position: fixed;
     
 
 }
 
+.sm-links {
+  color: white;
+}
 
 .sm-links:hover {
     color: #28e298;

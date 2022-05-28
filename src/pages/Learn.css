@@ -103,3 +103,16 @@ div#videos > video {
 button {
     margin: 0.2em 0.1em !important;
 }
+
+.Student_live {
+    margin-left: 200px;
+}
+.student_title {
+    
+    color: #28e298;
+    font-size: 27px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 30px;
+}

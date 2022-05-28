@@ -13,10 +13,14 @@ function CoachPage() {
   const [startClassDisabled, setStartClassDisabled] = useState(true);
   const [finishClassDisabled, setFinishClassDisabled] = useState(true);
   return (
-    <div className='app'>
+    <div className='Coach'>
       <SideBar/>
-      <Container>
+      <Container >
+        <div className='Coach_live'>
+          <div className='title_coach'>
         <h1>MP-STUDIO Coach Panel</h1>
+        </div>
+        <br/>
         <Container id="buttons">
           <Button id="cameraBtn" disabled={camDisabled} onClick={async (e) => {
             await openUserMedia();
@@ -44,6 +48,7 @@ function CoachPage() {
         </div>
         <div id="videos">
           <video id="localVideo" muted autoPlay playsInline></video>
+        </div>
         </div>
       </Container>
 

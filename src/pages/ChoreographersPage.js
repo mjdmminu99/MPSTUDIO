@@ -30,7 +30,10 @@ function ChoreographersPage() {
               the Chosun Ilbo.Known for her physical fitness and body movements,
               she is nicknamed "Dance Machine".In this regard, Momo is
               considered Twice's best dancer.
-              <br />
+              <br /> 
+              <p className='level'>
+                    🟣- Master  🔵 - Beginner  🟢 - Learner
+              </p>
               <p className='momo_quote'>
                 "We feel pressure from every angle to meet expectations, but the
                 pressure also pushes us in a positive was as well."

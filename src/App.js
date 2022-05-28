@@ -9,7 +9,7 @@ import Test from "./pages/Test";
 import AboutUs from "./pages/AboutUs";
 import CoachPage from "./pages/CoachPage";
 import ChoreographersPage from "./pages/ChoreographersPage";
-import UploadVideo from "./components/UploadVideo.1";
+import UploadVideo from "./pages/UploadVideo";
 import SchedulePage from "./pages/SchedulePage";
 import LearnPage from "./pages/Learn";
 import MPPass from "./pages/MPPassPage";
@@ -29,7 +29,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<ErrorPage />} />
-        <Route path="/uploadvideo" element={<UploadVideo />} />
+        <Route path="/lastestvideo" element={<UploadVideo />} />
         <Route path="/choreographers" element={<ChoreographersPage />} />
         <Route path="/schedule" element={<SchedulePage />} />
         <Route path="/mp_pass" element={<MPPass />} />

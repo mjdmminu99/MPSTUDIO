@@ -7,6 +7,7 @@ import PersonSearchRoundedIcon from '@mui/icons-material/PersonSearchRounded';
 import InfoRoundedIcon from '@mui/icons-material/InfoRounded';
 import AddShoppingCartRoundedIcon from '@mui/icons-material/AddShoppingCartRounded';
 import CastForEducationIcon from '@mui/icons-material/CastForEducation';
+import SlowMotionVideoRoundedIcon from '@mui/icons-material/SlowMotionVideoRounded';
 import {
   Link
 } from "react-router-dom";
@@ -26,6 +27,7 @@ function SideBar() {
       <Link to="/schedule"> <SidebarItem Icon={EventNoteRoundedIcon} title="Schedule"/> </Link>
       <Link to="/choreographers"><SidebarItem Icon={PersonSearchRoundedIcon} title="Choreographers "/> </Link>
       <Link to="/coach"><SidebarItem Icon={CastForEducationIcon} title="Teach Class "/> </Link>
+      <Link to="/lastestvideo"><SidebarItem Icon={SlowMotionVideoRoundedIcon} title="Latest Video "/> </Link>
       <Link to="/mp_pass"> <SidebarItem Icon={AddShoppingCartRoundedIcon} title="MP Pass "/></Link>
       <Link to="/about"> <SidebarItem Icon={InfoRoundedIcon} title="About Us "/></Link>
     </div>

@@ -10,12 +10,16 @@ function LearnPage() {
   useEffect(()=>joinRoomById(location.pathname.split('/').pop()))
 
   return (
-    <div className='app'>
+    <div className='Student'>
       <SideBar/>
       <Container>
-        <h1>MP-STUDIO Student Portal</h1>
+        <div className='Student_live'>
+          <div className='student_title'>
+        <h1>MP-STUDIO Student Portal</h1> 
+          </div>
         <div id="videos">
           <video id="remoteVideo" muted autoPlay playsInline></video>
+        </div>
         </div>
       </Container>
     </div>
