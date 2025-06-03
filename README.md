@@ -1,3 +1,8 @@
+
+Web application for streaming live video. Users can use live video to learn from and educate other users. 
+A single dancing studio is the base for this web application. 
+Allow the user to meet all of their needs in one site.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
